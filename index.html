@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allan Mundia | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="home" class="header-bg">
+        <div class="nav-container">
+            <h1 class="logo">Allan Mundia</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn download-btn">Download CV</a>
+        </div>
+        <div class="header-content">
+            <h2>Aspiring Software Engineer</h2>
+            <p>Building robust applications, databases, and trading algorithms.</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-padding">
+        <div class="container about-flex">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p><strong>Name:</strong> Allan Mundia</p>
+                <p><strong>Institution:</strong> Zetech University</p>
+                <p><strong>Course:</strong> Software Engineering (DSE-01-0107/2026)</p>
+                <br>
+                <p>I am a software engineering student based in Kenya with a strong focus on backend development, database management systems, and network security. I enjoy working in Linux environments (specifically Ubuntu) and have hands-on experience building algorithmic trading bots and web applications. When I'm not coding, you can find me inline skating around Nairobi.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://via.placeholder.com/250" alt="Allan Mundia Profile Placeholder">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="flex-container">
+                <div class="card skill-card">
+                    <h3>HTML & CSS</h3>
+                    <p>Responsive web design, Flexbox, and modern UI development.</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Python & C++</h3>
+                    <p>Algorithm development, virtual environments, and performance optimization.</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Database Management</h3>
+                    <p>MariaDB, MySQL, Entity Framework Core, and DBeaver integration.</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Linux Administration</h3>
+                    <p>Ubuntu CLI, network traffic analysis (tcpdump, tshark), and system security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="flex-container">
+                <div class="card project-card">
+                    <h3>ywh_tradings (Amy_bot)</h3>
+                    <p>An automated algorithmic trading bot framework connecting to the Deriv WebSocket API, featuring advanced risk management engines and position limit controls.</p>
+                    <p><strong>Technologies:</strong> Python, C++, WebSockets</p>
+                </div>
+                <div class="card project-card">
+                    <h3>ASP.NET Core POS System</h3>
+                    <p>A web application built for smartphone repair management. It handles repair tracking, workflows, and ESC/POS thermal receipt rendering.</p>
+                    <p><strong>Technologies:</strong> C#, ASP.NET Core, Blazor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container contact-container">
+            <h2>Contact Me</h2>
+            <div class="contact-details">
+                <p><strong>Email:</strong> allan.mundia.dev@example.com</p>
+                <p><strong>Phone:</strong> +254 700 000 000</p>
+            </div>
+            
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Allan Mundia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
